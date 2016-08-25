@@ -9,12 +9,9 @@ from pprint import pprint
 key = apikeys.meraki
 url = "https://n49.meraki.com/api/v0/"
 
-print("What main function API are you calling?"),
-main=raw_input()
-print("For what organization or network?"),
-net=raw_input()
-print("What information are you looking for?"),
-info=raw_input()
+main = input("What main function API are you calling? ")
+net = input("For what organization or network? " )
+info = input("What information are you looking for? ")
 
 headers = {
     'X-Cisco-Meraki-API-Key': key,
