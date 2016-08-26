@@ -7,6 +7,7 @@ from pprint import pprint
 
 progVersion = str('alpha 0.1')
 
+
 #TODO: refactor to make this less kludgey and more Pep 8 compliant
 #TODO: (https://www.python.org/dev/peps/pep-0008/)
 
